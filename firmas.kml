@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Firmá por Punta Ballena 2da ETAPA</name>
+    <description>Lugares fijos de recolección de Firmas para que se declare Punta Ballena como Área Natural Protegida. NO AL PROYECTO PUNTA BALLENA. somospuntaballena.org </description>
+    <NetworkLink>
+      <name>Firmá por Punta Ballena 2da ETAPA</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=1xZxs7amlpFuPK8CFDa_9b-CLtqjFriY]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
