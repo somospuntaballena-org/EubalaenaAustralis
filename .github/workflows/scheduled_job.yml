@@ -40,15 +40,20 @@ jobs:
       run: |
         cd output
         LATEST_CSV=$(ls -Art firmas_*.csv | tail -n 1)
-        git diff --exit-code $LATEST_CSV
-        if [ $? -eq 1 ]; then
-          echo "::set-output name=changed::true"
+        if [ -z "$LATEST_CSV" ]; then
+          echo "No CSV files found. Assuming changes."
+          echo "changed=true" >> $GITHUB_ENV
         else
-          echo "::set-output name=changed::false"
+          git diff --exit-code $LATEST_CSV
+          if [ $? -eq 1 ]; then
+            echo "changed=true" >> $GITHUB_ENV
+          else
+            echo "changed=false" >> $GITHUB_ENV
+          fi
         fi
 
     - name: Commit and force push if changed
-      if: steps.csv_check.outputs.changed == 'true'
+      if: env.changed == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
