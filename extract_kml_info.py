@@ -83,7 +83,8 @@ def markdown_to_pdf(markdown_file, pdf_file, margin='2cm'):
         subprocess.run([
             'pandoc', 
             os.path.join(output_dir, markdown_file), 
-            '-o', os.path.join(output_dir, pdf_file), 
+            '-o', os.path.join(output_dir, pdf_file),
+            '--pdf-engine=xelatex',
             '-V', f'geometry:margin={margin}'
         ], check=True)
         print(f"PDF generated: {os.path.join(output_dir, pdf_file)}")
