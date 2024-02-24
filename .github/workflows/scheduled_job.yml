@@ -1,0 +1,51 @@
+name: Scheduled KML Extraction
+
+on:
+  schedule:
+    # Runs at the start of every hour
+    #- cron: '0 * * * *'
+    # Runs every 10 minutes
+    - cron: '*/10 * * * *'
+
+jobs:
+  run_script_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Ensures history is fully fetched
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run script
+      run: |
+        python extract_kml_info.py
+
+    - name: Check if CSV changed
+      id: csv_check
+      run: |
+        LATEST_CSV=$(ls -Art firmas_*.csv | tail -n 1)
+        git diff --exit-code $LATEST_CSV
+        if [ $? -eq 1 ]; then
+          echo "::set-output name=changed::true"
+        else
+          echo "::set-output name=changed::false"
+        fi
+
+    - name: Commit and push if changed
+      if: steps.csv_check.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git rm firmas_*.csv firmas_*.md firmas_*.html firmas_*.pdf
+        git add firmas_*.csv firmas_*.md firmas_*.html firmas_*.pdf
+        git commit -m "Update firmas files"
+        git push
