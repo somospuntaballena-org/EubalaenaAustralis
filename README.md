@@ -8,7 +8,6 @@ Este proyecto require [Python](https://www.python.org/downloads/).
 
 Una vez instalado Python, ejecutar el siguiente comando para generar la lista de locales para firmar en distintos formatos de salida: CSV, Markdown, HTML y PDF. También se genera un archivo KML con los datos actuales del mapa:
 
-
 ```python
 % python3 extract_kml_info.py
 ...
