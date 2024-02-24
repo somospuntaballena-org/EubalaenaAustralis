@@ -36,19 +36,25 @@ jobs:
         python extract_kml_info.py
 
     - name: Check if CSV changed
-      id: csv_check
       run: |
         cd output
-        LATEST_CSV=$(ls -Art firmas_*.csv | tail -n 1)
-        if [ -z "$LATEST_CSV" ]; then
-          echo "No CSV files found. Assuming changes."
+        CSV_FILES=($(ls -Art firmas_*.csv)) # Create an array of CSV files sorted by modification time
+        NUM_CSV_FILES=${#CSV_FILES[@]} # Get the number of CSV files
+
+        if [ "$NUM_CSV_FILES" -eq 1 ]; then
+          echo "Only one CSV file found. Assuming changes."
           echo "changed=true" >> $GITHUB_ENV
         else
-          git diff --exit-code $LATEST_CSV
-          if [ $? -eq 1 ]; then
-            echo "changed=true" >> $GITHUB_ENV
-          else
+          LATEST_CSV=${CSV_FILES[-1]} # Get the latest CSV file
+          SECOND_LATEST_CSV=${CSV_FILES[-2]} # Get the second latest CSV file
+          
+          # Use 'cmp' for binary comparison, it's faster and sufficient for checking if files are identical
+          if cmp -s "$LATEST_CSV" "$SECOND_LATEST_CSV"; then
+            echo "No changes in the CSV files."
             echo "changed=false" >> $GITHUB_ENV
+          else
+            echo "CSV files have changed."
+            echo "changed=true" >> $GITHUB_ENV
           fi
         fi
 
