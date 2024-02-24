@@ -5,7 +5,9 @@ on:
     # Runs at the start of every hour
     #- cron: '0 * * * *'
     # Runs every 10 minutes
-    - cron: '*/10 * * * *'
+    # - cron: '*/10 * * * *'
+    # Run at 6am, 12pm (noon), 6pm, 12pm (midnight) (times are UTC)
+    - cron: '0 6,12,18,0 * * *'
 
 permissions:
   contents: write
