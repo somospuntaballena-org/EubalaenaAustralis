@@ -91,4 +91,4 @@ jobs:
         cd ..
         
         # Force push to overwrite history on the current branch
-        git push origin HEAD:main --force
+        git push origin HEAD:main
