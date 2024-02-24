@@ -38,6 +38,7 @@ jobs:
     - name: Check if CSV changed
       id: csv_check
       run: |
+        cd output
         LATEST_CSV=$(ls -Art firmas_*.csv | tail -n 1)
         git diff --exit-code $LATEST_CSV
         if [ $? -eq 1 ]; then
