@@ -9,7 +9,9 @@ Centro Universitario Regional del Este (CURE), UDELAR. Lo puedes encontrar compl
 
 ## Alcance
 
-Este repositorio permite automatizar tareas que vinculan información proveniente de la planilla de gestores de firmas con otras applicaciones como ser google maps y (próximamente) correo electrónico y whatsapp. La automatización de dichos procesos persigue generar un ciclo de respuesta rápido con recursos limitados, tanto para la gestión de ingresos nuevos como para la generación de productos. Ejemplos de tales productos son planillas con información depurada para ser presentada públicamente, un mapa con puntos de recolección de firmas, el monitoreo automático de información faltante para garantizar cierta calidad de los puntos, entre otros. Se liberan así valiosos recursos humanos que pueden enfocarse en tareas de creación de ideas, coordinación de equipos en territorio y vinculación con los usuarios finales de los productos generados.
+Este repositorio permite automatizar tareas que vinculan información proveniente de la planilla de gestores de firmas con otras applicaciones como ser google maps y (próximamente) correo electrónico y whatsapp. La automatización de dichos procesos persigue generar ciclos de respuesta rápidos, tanto para la gestión de ingresos nuevos como para la generación de información para el público en general.
+
+Ejemplos de tales productos son planillas con información depurada para ser presentada públicamente, un mapa con puntos de recolección de firmas, el monitoreo automático de información faltante para garantizar cierta calidad de los puntos, entre otros. Se liberan así valiosos recursos humanos que pueden enfocarse en tareas de creación de ideas y coordinación de equipos en territorio.
 
 Para su implementación, este proyecto utiliza [Python](https://www.python.org/downloads/), diversas APIs de Google, entre otras.
 
