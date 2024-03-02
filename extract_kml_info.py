@@ -109,6 +109,7 @@ def extract_info_and_geocode(kml_file_path):
         description = placemark.find('kml:description', ns).text if placemark.find('kml:description', ns) is not None else ''
         coord_text = placemark.find('.//kml:coordinates', ns).text if placemark.find('.//kml:coordinates', ns) is not None else ''
         if coord_text:
+            print(f"Found coordinates {coord_text} for placemark {placemark}")
             lon, lat, _ = map(float, coord_text.split(','))
             address = geocode_coordinates(lat, lon)
         else:
