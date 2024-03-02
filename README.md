@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+    <img src="assets/images/ballenasUYred.png" alt="Logo">
+</div>
+
 > Actualmente en Punta Ballena se desarrollan numerosas actividades turístico-recreativas como pesca, parapente, rapel, senderismo, observación de plantas, visitas a las cuevas y grutas, buceo y snorkeling, venta de artesanías. También es un lugar muy apreciado para contemplar el paisaje y el atardecer. Adicionalmente, se utiliza para la observación de aves y ballenas, especialmente durante la temporada en que la ballena franca **Eubalaena australis** visita las costas uruguayas.
 
 Extraído de *Comentarios al Informe Ambiental Resumen del “Complejo Residencial Punta Ballena”* presentado en Octubre de 2023
