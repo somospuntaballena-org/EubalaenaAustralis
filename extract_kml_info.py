@@ -67,8 +67,9 @@ def geocode_coordinates(lat, lon):
     '''
     try:
         # Construct request URL
-        url = f"https://nominatim.openstreetmap.org/reverse?lat={
-            lat}&lon={lon}&format=json"
+        url = "https://nominatim.openstreetmap.org/reverse?lat={}&lon={}&format=json".format(
+            lat, lon)
+
         response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
         if response.status_code == 200:
             data = response.json()
