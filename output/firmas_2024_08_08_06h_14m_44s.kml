@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Firmá por Punta Ballena 2da ETAPA</name>
+    <description>Lugares fijos de recolección de Firmas para que se declare Punta Ballena como Área Natural Protegida. NO AL PROYECTO PUNTA BALLENA. somospuntaballena.org </description>
+    <Style id="icon-1894-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1894-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1894-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1894-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1894-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1894-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1894-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1894-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1894-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1894-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Firmá por Punta Ballena</name>
+      <Placemark>
+        <name>ADEOM</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9567211,-34.907158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veterinaria EL SABIÁ</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.1234375,-34.8636875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laferre</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0571056,-34.8778055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inmobiliaria Pucurull</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0568044,-34.8778564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo Casapueblo</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0446142,-34.9087131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OLA Restaurante</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0432843,-34.8848654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veterinaria del mar</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9622806,-34.9044948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa La Alegría</name>
+        <description>Casa La Alegría</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9744106,-34.9093707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clínica Veterinaria Aiguá</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9478505,-34.9080091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espiga Dorada</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9789006,-34.8878521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gral. Jose de San Martin 23</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.0457961,-34.855389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Club de Pesca Ute-Antel</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0370903,-34.908287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clinica Veterinaria LOPEZ QUINTANA</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.960661,-34.909202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PAPELERIA OUTSIDE</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9598834,-34.9085171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CURE Sede Campus</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9421649,-34.914323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Multiespacio Mahuá</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.117453,-34.852052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarandí 472 Florida</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.2199237,-34.0953758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unión Vecinal Punta Ballena y Lagunas del Sauce y del Diario</name>
+        <description>De martes a viernes de 13 a 17 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0358224,-34.8847084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar El Hormiguero</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.179382,-34.9116475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finisterre Bar</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1776371,-34.9046184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Mochos Portezuelo, Punta Ballena</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0400021,-34.8875729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espadas Tatoo, 25 de Mayo 477 Piso 2. Of. 50</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.2060947,-34.9058966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Club Cultural Charco</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1835022,-34.9089895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cambalache Bar</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.181922,-34.9082416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria de Frutas y Verduras</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.2748115,-34.8623461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercadillo de Sauce</name>
+        <description>Sábados: de 19 a 23; Invierno: 13 a 16</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.1481884,-34.8724124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Primitivo. Arte y gastronomía</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.2707488,-34.8677837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sindicato Gastronómico y Hotelero del Uruguay - S.U.G.H.U.-P.I.T.-C.N.T.</name>
+        <description>De 9 a 18 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.960903,-34.9042787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joaquín Artigas 3819</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1678512,-34.8583907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salón Aquí Todo</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.280662,-34.5247432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joyería Veiga</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.7113416,-34.339553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veiga Joya</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.2816293,-34.5248486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barrio Los 8</name>
+        <description>Lunes a viernes de 13 a 19 hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.9615277777778,-34.8118333333333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Qué Rico Pan, Panadería Artesanal</name>
+        <description>8 a 15 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.963112,-34.9039464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bartolomé Mitre & Camacuá]]></name>
+        <description>Llamar al 098029338</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.2005377,-34.9094718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Cultural Kavlin</name>
+        <description>Lunes a viernes de 15 a 21 hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9424338,-34.9190328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Julio Herrera y Obes 1222</name>
+        <description>Mañanas hasta 13 hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1942939,-34.9085461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Tenerife: Cuba entre Colombia y Martinica</name>
+        <description>Coordinar 098942316</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9655381,-34.9167365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Casa Isla Bonita, Gaviotín & Bigua]]></name>
+        <description>Coordinar 094533700</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0402373,-34.8899057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HOPE Surf Shop</name>
+        <description>De 19 a 23 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9385875,-34.9541253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Club de Balleneros</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0455446,-34.9028746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Popu</name>
+        <description>De 9 a 24 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.8649918,-34.9107582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Polo Educativo Tecnológico Arrayanes (UTU)</name>
+        <description>De 9 a 16 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.2147027,-34.8333895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marina del este</name>
+        <description>Administración</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.949193,-34.8684771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marina del este</name>
+        <description>Depto. B294</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9492466,-34.8686708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Velsen 4546</name>
+        <description>Coordinar 098945906</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1122525,-34.8944709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Facultad de Arquitectura, Diseño y Urbanismo | UDELAR</name>
+        <description>Coordinar con Santi 094428280</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.164091,-34.9098293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa de Carmen Calle Golondrinas (24) entre Avenida de los Cipreses y Calle Las Garzas</name>
+        <description>Lunes a viernes de 10 a 17 hs. Cel 099 460 699</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.6143055555556,-34.76975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agustina</name>
+        <description>De 10 a 19 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.95625,-34.8861388888889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vivero Paseo de las Flores</name>
+        <description>De 9 a 17 hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.329992,-34.813294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pda. 42 Mansa. La Celestina % Mariana Pineda y Don Segundo Sombra</name>
+        <description>Whatsapp al 099343998 para coordinar</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0190016,-34.9035492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Radio Mangangá</name>
+        <description>Coordinar por Whatsapp  098 948 498</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.3779704,-34.8010371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veiga Joyas Sauce</name>
+        <description><![CDATA[General Artigas & Vicente Ponce de Leon]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.063359,-34.6496037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Isabel</name>
+        <description>Coordinar por whatsapp 099 337 274</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.7772479,-34.7693032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fotocopias Colonia  Gral. Flores 468</name>
+        <description>Lunes a viernes de 9.30 a 18.30</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -57.8443106,-34.4706247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Al grano. Avda. Baltasar Brum 745</name>
+        <description>Lunes a viernes de 9 a 13 hs y de 16 a 19 hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -57.8387819,-34.4625243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PIXEL Impresiones</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9551289,-34.9162801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Soledad</name>
+        <description>Coordinar por whatsapp 099 558 504</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.7804166666667,-34.8824722222222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Daiana</name>
+        <description>Coordinar por whatsapp 092 904 060</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.4008611111111,-34.7828611111111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Rosario</name>
+        <description>Coordinar por Whatsapp  099 608 633</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.9784722222222,-34.8452222222222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Avenida Uruguay & Mar de Ajó]]></name>
+        <description>Coordinar por whatsapp 091668826</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.967039,-34.8288818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vecin@s unid@s - Balneario Argentino</name>
+        <description>Sábados, domingos, lunes y miércoles</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.4470833333333,-34.7833333333333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lo de Cristina</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -54.766373,-34.2040684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[19 de Abril & Doctor Julian Graña]]></name>
+        <description>Coordinar por Whatsapp  092 719 599</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.3363601,-34.4828699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Nido - Espacio Cultural</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -55.121104,-34.848168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kiosco Salón Puntos</name>
+        <description>Lunes a sábados de 8:00 a 21:00hs. Domingos de 9:00 a 21:00hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9153133,-34.7928513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Autoservice Lo De Vivi</name>
+        <description>Lunes a viernes 8:00 a 15:00hs y 17:00 a 20:30hs. Sábados 8:00 a 15:00 hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.6446339,-34.8351843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grinderman Libros</name>
+        <description>Lunes a viernes mañana y/o tarde, coordinar 098263550</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.178779,-34.9001519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Anabela</name>
+        <description>Viernes de 13 a 17 hs. y Sábados de 9 a 12</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.5154069,-32.8080366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gafer10, Papelería y Recuerdos</name>
+        <description>El Mirlo y Las Garzas. De 10 a 18 hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0594166666667,-34.6315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alejo Fernandez Chavez 636</name>
+        <description>Jueves y viernes todo el día. Sábados de mañana</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9109632,-34.7899512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Canuto</name>
+        <description>Miércoles a Lunes de 12:30 a 19:30hs</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.6399624,-34.8418887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Papelería Papelino Coronel Leonardo Olivera 764</name>
+        <description>De 10 a 19 hs.</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9116194,-34.792757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maraña Peluquería</name>
+        <description><![CDATA[Lunes de 15 a 19 <br>Martes a jueves 10:00 a 12: 30 y de 14:00 a 19:00 <br>Viernes y Sábados 10:30 a 19:00]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9574977,-34.9107794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finito Y Crocante</name>
+        <description>Martes a domingo de 19:30 a 1:00</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9535351,-34.9060149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mandala Pizza</name>
+        <description>Jueves a lunes 12 a 16 – 20 a 23:45 </description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0586979,-34.8773539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Facultad de Arquitectura, Diseño y Urbanismo</name>
+        <description>Taller Articardi. Salón 1</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1639187,-34.9101344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feria Artesanías Punta Ballena</name>
+        <description>Turismo todos los días de 10:30 a 19 hs. Sábados y domingos de 10:30 a 19 hs. </description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0466666666667,-34.9155277777778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Viejo Almacén</name>
+        <description><![CDATA[Jueves y viernes 19:30 a 1:00<br>Sábado y domingo de 12:00 a 16:00 – 19:30 a 1:00]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.1201665,-34.8712964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espacio Cultural El TERRUÑO</name>
+        <description>Calle ABAYUBA..M.H.7 solar 13</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.8983906,-34.7842625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Horacio</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1425013,-34.9014236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capa sin título</name>
+    </Folder>
+  </Document>
+</kml>
