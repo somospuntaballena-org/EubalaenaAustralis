@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Firmá por Punta Ballena 2da ETAPA</name>
+    <description>Lugares fijos de recolección de Firmas para que se declare Punta Ballena como Área Natural Protegida. NO AL PROYECTO PUNTA BALLENA. somospuntaballena.org </description>
+    <Style id="icon-1894-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1894-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1894-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1894-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1894-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1894-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1894-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1894-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1894-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1894-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Firmá por Punta Ballena</name>
+      <Placemark>
+        <name>Veterinaria EL SABIÁ</name>
+        <description><![CDATA[https://www.facebook.com/p/Veterinaria-El-Sabi%C3%A1-100054379097475/<br><br>Veterinaria]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.1234375,-34.8636875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inmobiliaria Pucurull</name>
+        <description><![CDATA[https://www.pucurull.com/<br><br>Inmobiliaria]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0568044,-34.8778564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clínica Veterinaria Aiguá</name>
+        <description>Veterinaria</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9478505,-34.9080091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espiga Dorada</name>
+        <description>Supermercado</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9789006,-34.8878521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CURE Sede Campus</name>
+        <description>Centro Educativo</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9421649,-34.914323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Multiespacio Mahuá</name>
+        <description>https://multiespaciomahua.wixsite.com/mahua</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.117453,-34.852052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unión Vecinal Punta Ballena y Lagunas del Sauce y del Diario</name>
+        <description><![CDATA[De martes a viernes de 13 a 17 hs<br><br>https://www.puntaballena.org/macros/Home_2_4P_UV.jsp?contentid=2&version=1]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0358224,-34.8847084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Club Cultural Charco</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.1835022,-34.9089895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cambalache Bar</name>
+        <styleUrl>#icon-1894-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -56.181922,-34.9082416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Qué Rico Pan, Panadería Artesanal</name>
+        <description><![CDATA[8 a 15 hs<br><br>Panaderia]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.963112,-34.9039464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Cultural Kavlin</name>
+        <description><![CDATA[Lunes a viernes de 15 a 21 hs.<br><br>Centro Cultural. Cafetería.]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9424338,-34.9190328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo Arboretum Lussich</name>
+        <description><![CDATA[Martes a Domingo<br><br>Museo. Parque natural.]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -55.0358897,-34.8849966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Curandería Resto</name>
+        <description><![CDATA[miércoles 8 p.m.–2 a.m.<br>jueves 11 a.m.–4 p.m.<br>8 p.m.–1 a.m.<br>viernes 11 a.m.–4 p.m.<br>8 p.m.–2 a.m.<br>sábado 12–4 p.m.<br>8 p.m.–2 a.m.<br><br>domingo 11 a.m.–4 p.m.<br><br>Restaurant]]></description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9563964,-34.9121419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Sargo Fishing Shop</name>
+        <description>Casa de Pesca</description>
+        <styleUrl>#icon-1894-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -54.9631181,-34.9028167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capa sin título</name>
+    </Folder>
+  </Document>
+</kml>
